@@ -43,6 +43,10 @@ hr{border:0;border-top:1px solid #d9dde4;margin:28px 0}
 .vwrap{margin:0 0 16px}.vwrap>.video{margin-bottom:12px}.vfb{display:none;border:1px solid rgba(127,127,127,.4);border-radius:8px;overflow:hidden;text-decoration:none;color:inherit;margin:0 0 12px}.local .vfb{display:block}.local .video{display:none}.vfb img{width:100%;border-radius:0}.vfb div{padding:10px 12px}.vfb b{display:block}.vfb small{display:block;opacity:.75;word-break:break-all}
 .tr summary{cursor:pointer;font-weight:600}.trr{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin-top:8px}.trr a{font-variant-numeric:tabular-nums;color:#1f4fd8;text-decoration:none}.trr a:hover{text-decoration:underline}.trr p{margin:0}
 @media(prefers-color-scheme:dark){.trr a{color:#8fb0ff}}
+.back{margin:0 0 16px}.back a{color:#1f4fd8;text-decoration:none}.back a:hover{text-decoration:underline}
+@media(prefers-color-scheme:dark){.back a{color:#8fb0ff}}
+.sp ul{list-style:none;padding:0;margin:0 0 28px;display:flex;flex-direction:column;gap:6px}.sp a{color:#1f4fd8}.spn{opacity:.7;margin:0 0 28px}
+@media(prefers-color-scheme:dark){.sp a{color:#8fb0ff}}
 .c0{background:#fff3b0;color:#1b1f27}
 .c1{background:#cdeccf;color:#1b1f27}
 .c2{background:#cfe4ff;color:#1b1f27}
@@ -59,6 +63,7 @@ hr{border:0;border-top:1px solid #d9dde4;margin:28px 0}
 <body>
 <div class="page">
 <main>
+<nav class="back"><a href="../">&larr; Home</a></nav>
 <h1>Session2</h1>
 <div class="qa">
 <div class="ql">Question</div>
@@ -68,6 +73,7 @@ hr{border:0;border-top:1px solid #d9dde4;margin:28px 0}
 </div>
 <p>- The same thing and we must test to see if it is really true </p>
 <p>- We must have the same thing in the last days and we are living in the last days</p>
+<p>This is very cool</p>
 </main>
 </div>
 <script>
@@ -77,6 +83,6 @@ else{var t=b.parentNode.querySelector('.box').innerText;navigator.clipboard.writ
 document.addEventListener('click',function(e){var b=e.target.closest('[data-k]');if(b)act(b)});
 document.addEventListener('keydown',function(e){var b=e.target;if((e.key==='Enter'||e.key===' ')&&b.dataset&&b.dataset.k==='img'){e.preventDefault();act(b)}});
 </script>
-<script type="application/json" id="site-data">{"title":"Session2","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1060,"blocks":[{"type":"question","copy":true,"q":"Question 1","a":"Answer 1"},{"type":"text","text":"- The same thing and we must test to see if it is really true "},{"type":"text","text":"- We must have the same thing in the last days and we are living in the last days"}]}</script>
+<script type="application/json" id="site-data">{"title":"Session2","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1060,"blocks":[{"type":"question","q":"Question 1","a":"Answer 1","copy":true},{"type":"text","text":"- The same thing and we must test to see if it is really true "},{"type":"text","text":"- We must have the same thing in the last days and we are living in the last days"},{"type":"text","text":"This is very cool"}]}</script>
 </body>
 </html>
