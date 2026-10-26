@@ -7,14 +7,14 @@
    "updated": "2026-10-26T04:37:17.879Z"
   },
   {
-   "folder": "what-a-show",
-   "title": "Session 6",
-   "updated": "2026-10-26T04:37:17.879Z"
-  },
-  {
    "folder": "session2",
    "title": "Session 2",
    "updated": "2026-10-26T04:41:51.166Z"
+  },
+  {
+   "folder": "session6",
+   "title": "Session 6",
+   "updated": "2026-10-26T05:03:18.459Z"
   }
  ],
  "home": {
@@ -27,7 +27,7 @@
   "dates": false,
   "manual": [
    "session2",
-   "what-a-show",
+   "session6",
    "session1"
   ]
  }
