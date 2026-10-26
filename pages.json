@@ -21,14 +21,14 @@
   "title": "WitnessWebsite",
   "subtitle": "This is Africa Witness Website",
   "intro": "",
-  "style": "cards",
+  "style": "grid",
   "order": "manual",
   "group": false,
   "dates": false,
   "manual": [
    "session2",
-   "session1",
-   "what-a-show"
+   "what-a-show",
+   "session1"
   ]
  }
 }
