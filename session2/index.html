@@ -71,10 +71,16 @@ hr{border:0;border-top:1px solid #d9dde4;margin:28px 0}
 <div class="ql">Answer</div>
 <div class="item cb"><div class="box">Answer 1</div><button data-k="txt">Copy</button></div>
 </div>
+<div class="sec" id="b2">
+<h1>The End</h1>
 <p>- The same thing and we must test to see if it is really true </p>
+</div>
 <p>- We must have the same thing in the last days and we are living in the last days</p>
 <p>This is very cool</p>
 </main>
+<nav class="outline" aria-label="Outline"><strong>Outline</strong>
+<a class="l1" href="#b2">The End</a>
+</nav>
 </div>
 <script>
 function act(b){var old=b.textContent,box=b.parentNode,tip=box.querySelector('.tip');function done(ok,msg){var m=msg||(ok?"Copied!":"Copy failed. Press and hold the image to copy instead.");if(tip){tip.textContent=m;box.classList.add('show');setTimeout(function(){box.classList.remove('show');tip.textContent="Click to copy"},ok&&!msg?500:2200)}else{b.textContent=m;setTimeout(function(){b.textContent=old},ok&&!msg?500:2200)}}
@@ -83,6 +89,6 @@ else{var t=b.parentNode.querySelector('.box').innerText;navigator.clipboard.writ
 document.addEventListener('click',function(e){var b=e.target.closest('[data-k]');if(b)act(b)});
 document.addEventListener('keydown',function(e){var b=e.target;if((e.key==='Enter'||e.key===' ')&&b.dataset&&b.dataset.k==='img'){e.preventDefault();act(b)}});
 </script>
-<script type="application/json" id="site-data">{"title":"Session 2","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1060,"blocks":[{"type":"question","q":"Question 1","a":"Answer 1","copy":true},{"type":"text","text":"- The same thing and we must test to see if it is really true "},{"type":"text","text":"- We must have the same thing in the last days and we are living in the last days"},{"type":"text","text":"This is very cool"}]}</script>
+<script type="application/json" id="site-data">{"title":"Session 2","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1060,"blocks":[{"type":"question","q":"Question 1","a":"Answer 1","copy":true},{"type":"text","text":"- The same thing and we must test to see if it is really true ","title":"The End","level":1},{"type":"text","text":"- We must have the same thing in the last days and we are living in the last days"},{"type":"text","text":"This is very cool"}]}</script>
 </body>
 </html>
