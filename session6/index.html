@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,7 +10,7 @@ body{margin:0;font:17px/1.15 system-ui,Segoe UI,Arial,sans-serif;color:#1b1f27;b
 .page{display:flex;justify-content:center;gap:16px;align-items:flex-start}
 main{flex:0 1 1200px;max-width:1200px;min-width:0;padding:24px 16px 60px}
 h1{font-size:30px;margin:0 0 20px}h2{font-size:24px;margin:28px 0 8px}h3{font-size:20px;margin:24px 0 8px}h4{font-size:18px;margin:20px 0 6px}h5{font-size:16px;margin:16px 0 4px}h6{font-size:14px;margin:16px 0 4px}
-.ttl{font-weight:600;margin:0 0 8px}.sec{scroll-margin-top:16px}
+.ttl{font-weight:600;margin:0 0 8px}.sec,h1,h2,h3,h4,h5,h6{scroll-margin-top:16px}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 .outline{background:rgba(127,127,127,.12);border:1px solid rgba(127,127,127,.35);border-radius:8px;padding:12px 16px;margin:0 0 28px;display:flex;flex-direction:column;gap:2px}
 .outline a{color:#1f4fd8;text-decoration:none}.outline a:hover{text-decoration:underline}
@@ -34,6 +34,8 @@ figure.item img{margin:0;cursor:pointer}
 .row{display:flex;gap:12px;align-items:flex-start;margin:0 0 28px}
 .row figure.item{flex:0 1 auto;min-width:0;width:auto;margin:0;height:var(--ih)}
 .row img{width:auto;max-width:100%;height:100%;object-fit:contain;object-position:left center}
+.imt{margin:0 0 28px}.imt::after{content:"";display:block;clear:both}.imt .row{float:left;max-width:100%;margin:0 36px 8px 0}.imt.r .row{float:right;margin:0 0 8px 16px}.imt.stack .row,.imt.stack.r .row{float:none;margin:0 0 12px}.imt>p:first-of-type,.imt>ul:first-of-type{margin-top:0}.imt .cb{display:flow-root}.imt p:last-child{margin-bottom:0}
+@media(max-width:600px){.imt .row,.imt.r .row{float:none;margin:0 0 12px}}
 .row:not(.n1) .tip{font-size:clamp(13px,2.6vw,20px)}
 .tip{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;border-radius:6px;background:rgba(10,12,16,.6);color:#fff;font-size:clamp(18px,4vw,28px);font-weight:600;line-height:1.2;opacity:0;pointer-events:none;transition:opacity .18s}
 figure.item.show .tip,figure.item:has(img:focus-visible) .tip{opacity:1}
@@ -62,36 +64,37 @@ hr{border:0;border-top:1px solid #d9dde4;margin:28px 0}
 <body>
 <div class="page">
 <main>
-<nav class="back"><a href="../">&larr; Home</a></nav>
+<nav class="back"><a href="../">&larr; 主页</a></nav>
 <h1>Session 6</h1>
 <div class="row n3">
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/b6/b64e8a0a60-2-29-en.webp" alt=""><span class="tip">Click to copy</span></figure>
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/b5/b562a7c30f-2-19-en.webp" alt=""><span class="tip">Click to copy</span></figure>
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/d0/d0092a7f37-2-24-en.webp" alt=""><span class="tip">Click to copy</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/b6/b64e8a0a60-2-29-en.webp" alt=""><span class="tip">点击复制</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/b5/b562a7c30f-2-19-en.webp" alt=""><span class="tip">点击复制</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/d0/d0092a7f37-2-24-en.webp" alt=""><span class="tip">点击复制</span></figure>
 </div>
-<div class="sec" id="b2">
-<h1>Last Days</h1>
+<h1 id="b2-1">Last Days</h1>
 <p><span class="tc-red">Testing</span></p>
-</div>
-<div class="row n2">
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp" alt=""><span class="tip">Click to copy</span></figure>
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">Click to copy</span></figure>
+<div class="row n3">
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp" alt=""><span class="tip">点击复制</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">点击复制</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/ed/ed4711f799-1-50-en.webp" alt=""><span class="tip">点击复制</span></figure>
 </div>
 <div class="row n1">
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">Click to copy</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">点击复制</span></figure>
 </div>
 </main>
-<nav class="outline" aria-label="Outline"><strong>Outline</strong>
-<a class="l1" href="#b2">Last Days</a>
+<nav class="outline" aria-label="大纲"><strong>大纲</strong>
+<a class="l1" href="#b2-1">Last Days</a>
 </nav>
 </div>
 <script>
-function act(b){var old=b.innerHTML,box=b.parentNode,tip=box.querySelector('.tip');function done(ok,msg){var m=msg||(ok?"Copied!":"Copy failed. Press and hold the image to copy instead.");if(tip){tip.textContent=m;box.classList.add('show');setTimeout(function(){box.classList.remove('show');tip.textContent="Click to copy"},ok&&!msg?500:2200)}else{b.setAttribute('data-m',m);if(ok&&!msg)b.innerHTML="<svg viewBox=\"0 0 24 24\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg>";setTimeout(function(){b.removeAttribute('data-m');b.innerHTML=old},ok&&!msg?900:2200)}}
-if(b.dataset.k==='img'){var i=b;var p=new Promise(function(res,rej){try{var k=document.createElement('canvas');k.width=i.naturalWidth;k.height=i.naturalHeight;k.getContext('2d').drawImage(i,0,0);k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')}catch(e){rej(e)}}).catch(function(){return fetch(i.currentSrc||i.src,{mode:'cors',cache:'reload'}).then(function(r){if(!r.ok)throw new Error('http '+r.status);return r.blob()}).then(function(bl){return createImageBitmap(bl)}).then(function(bm){var k=document.createElement('canvas');k.width=bm.width;k.height=bm.height;k.getContext('2d').drawImage(bm,0,0);return new Promise(function(res,rej){k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')})})});try{navigator.clipboard.write([new ClipboardItem({'image/png':p})]).then(function(){done(1)},function(err){try{console.warn('Image copy failed:',err)}catch(z){}navigator.clipboard.writeText(i.currentSrc||i.src).then(function(){done(1,"Image copy was blocked. Copied the image link instead.")},function(){done(0)})})}catch(e){done(0)}}
+function act(b){var old=b.innerHTML,box=b.parentNode,tip=box.querySelector('.tip');function done(ok,msg){var m=msg||(ok?"已复制！":"复制失败。请长按图片进行复制。");if(tip){tip.textContent=m;box.classList.add('show');setTimeout(function(){box.classList.remove('show');tip.textContent="点击复制"},ok&&!msg?500:2200)}else{b.setAttribute('data-m',m);if(ok&&!msg)b.innerHTML="<svg viewBox=\"0 0 24 24\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg>";setTimeout(function(){b.removeAttribute('data-m');b.innerHTML=old},ok&&!msg?900:2200)}}
+if(b.dataset.k==='img'){var i=b;var p=new Promise(function(res,rej){try{var k=document.createElement('canvas');k.width=i.naturalWidth;k.height=i.naturalHeight;k.getContext('2d').drawImage(i,0,0);k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')}catch(e){rej(e)}}).catch(function(){return fetch(i.currentSrc||i.src,{mode:'cors',cache:'reload'}).then(function(r){if(!r.ok)throw new Error('http '+r.status);return r.blob()}).then(function(bl){return createImageBitmap(bl)}).then(function(bm){var k=document.createElement('canvas');k.width=bm.width;k.height=bm.height;k.getContext('2d').drawImage(bm,0,0);return new Promise(function(res,rej){k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')})})});try{navigator.clipboard.write([new ClipboardItem({'image/png':p})]).then(function(){done(1)},function(err){try{console.warn('Image copy failed:',err)}catch(z){}navigator.clipboard.writeText(i.currentSrc||i.src).then(function(){done(1,"图片复制被浏览器阻止，已改为复制图片链接。")},function(){done(0)})})}catch(e){done(0)}}
 else{var bx=b.parentNode.querySelector('.box'),t=bx.getAttribute('data-cp');if(t===null)t=bx.innerText;navigator.clipboard.writeText(t).then(function(){done(1)},function(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();var ok=0;try{ok=document.execCommand('copy')}catch(x){}a.remove();done(ok)})}}
 document.addEventListener('click',function(e){var b=e.target.closest('[data-k]');if(b)act(b)});
+function fitIm(){document.querySelectorAll('.imt').forEach(function(w){w.classList.remove('stack');var r=w.querySelector('.row');if(r&&r.getBoundingClientRect().width>w.clientWidth*.66)w.classList.add('stack')})}
+window.addEventListener('resize',fitIm);window.addEventListener('load',fitIm);document.querySelectorAll('.imt img').forEach(function(i){i.addEventListener('load',fitIm)});fitIm();
 document.addEventListener('keydown',function(e){var b=e.target;if((e.key==='Enter'||e.key===' ')&&b.dataset&&b.dataset.k==='img'){e.preventDefault();act(b)}});
 </script>
-<script type="application/json" id="site-data">{"title":"Session 6","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1200,"blocks":[{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/b6/b64e8a0a60-2-29-en.webp","https://hui937.github.io/ImageLibrary/images/b5/b562a7c30f-2-19-en.webp","https://hui937.github.io/ImageLibrary/images/d0/d0092a7f37-2-24-en.webp"]},{"type":"text","text":"\u003cspan class=\"tc-red\">Testing\u003c/span>","title":"Last Days","level":1,"fmt":1},{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp","https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp"]},{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp"]}]}</script>
+<script type="application/json" id="site-data">{"title":"Session 6","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1200,"blocks":[{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/b6/b64e8a0a60-2-29-en.webp","https://hui937.github.io/ImageLibrary/images/b5/b562a7c30f-2-19-en.webp","https://hui937.github.io/ImageLibrary/images/d0/d0092a7f37-2-24-en.webp"]},{"type":"text","items":[{"k":"h","title":"Last Days","level":1},{"k":"t","text":"\u003cspan class=\"tc-red\">Testing\u003c/span>"}]},{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp","https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp","https://hui937.github.io/ImageLibrary/images/ed/ed4711f799-1-50-en.webp"]},{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp"]}]}</script>
 </body>
 </html>
