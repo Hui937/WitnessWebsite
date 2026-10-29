@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,15 +12,16 @@ main{flex:0 1 1200px;max-width:1200px;min-width:0;padding:24px 16px 60px}
 h1{font-size:30px;margin:0 0 20px}h2{font-size:24px;margin:28px 0 8px}h3{font-size:20px;margin:24px 0 8px}h4{font-size:18px;margin:20px 0 6px}h5{font-size:16px;margin:16px 0 4px}h6{font-size:14px;margin:16px 0 4px}
 .ttl{font-weight:600;margin:0 0 8px}.sec,h1,h2,h3,h4,h5,h6{scroll-margin-top:16px}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
-.outline{background:rgba(127,127,127,.12);border:1px solid rgba(127,127,127,.35);border-radius:8px;padding:12px 16px;margin:0 0 28px;display:flex;flex-direction:column;gap:2px}
-.outline a{color:#1f4fd8;text-decoration:none}.outline a:hover{text-decoration:underline}
-.outline .l2{padding-left:16px}.outline .l3{padding-left:32px}.outline .l4{padding-left:48px}.outline .l5{padding-left:64px}.outline .l6{padding-left:80px}
+.outline{background:rgba(127,127,127,.12);border:1px solid rgba(127,127,127,.35);border-radius:8px;padding:12px 16px;margin:0 0 28px;display:flex;flex-direction:column;gap:0}
+.outline strong{margin-bottom:4px}.outline a{display:block;padding:6px 0;line-height:1.25;color:#1f4fd8;text-decoration:none}.outline a:hover{text-decoration:underline}
+.outline a.l1,.outline a.l2{color:inherit;margin-top:2px;padding-top:8px;border-top:1px solid rgba(127,127,127,.3)}.outline a.l1{font-weight:600;border-top:1px solid rgba(127,127,127,.55);margin-top:6px;padding-top:9px}.outline a.l2{font-weight:400;padding-left:14px}.outline strong+a.l1,.outline strong+a.l2{border-top:0;margin-top:0;padding-top:6px}
+.outline a.l3,.outline a.l4,.outline a.l5,.outline a.l6{border-left:2px solid rgba(31,79,216,.3);padding-left:12px;margin-left:16px}.outline a.l4{margin-left:30px}.outline a.l5{margin-left:44px}.outline a.l6{margin-left:58px}
 .outline{position:sticky;top:24px;flex:0 0 220px;max-height:calc(100vh - 48px);overflow-y:auto;margin:24px 16px 0 0;align-self:flex-start}
 @media(max-width:900px){.page{flex-direction:column;align-items:stretch}main{flex:none;box-sizing:border-box;width:100%;max-width:1232px;margin:0 auto}.outline{position:static;max-height:none;flex:none;order:-1;margin:16px}}
 .cb{position:relative}.cb .box{margin-bottom:0}
 ul{margin:1em 0;padding-left:1.4em}.box ul{margin:0;padding-left:1.4em}.box ul+ul{margin-top:0}
 .aud{margin:0 0 16px}.aud audio{display:block;width:100%}.aud iframe{display:block;width:100%;max-width:300px;height:60px;border:0}
-.qa{margin:0 0 28px}.qa .item{margin:0 0 12px}.qa p{margin:0 0 12px}.ql{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.65;margin:0 0 4px}
+.qa{margin:0 0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:0 40px;align-items:start}.qp{min-width:0}.qa .item{margin:0 0 12px}.qa p{margin:0 0 12px}.ql{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.65;margin:0 0 4px}
 .video{position:relative;aspect-ratio:16/9;width:min(100%,480px);margin:0 0 28px}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:6px}
 .cb button{position:absolute;top:8px;left:-30px;width:24px;height:24px;padding:0;display:grid;place-items:center;border:1px solid rgba(127,127,127,.4);border-radius:6px;background:transparent;color:inherit;cursor:pointer;opacity:.6;transition:opacity .15s,background .15s}
 .cb button:hover,.cb button:focus-visible{opacity:1;background:rgba(127,127,127,.2)}
@@ -64,32 +65,34 @@ hr{border:0;border-top:1px solid #d9dde4;margin:28px 0}
 <body>
 <div class="page">
 <main>
-<nav class="back"><a href="../">&larr; Home</a></nav>
+<nav class="back"><a href="../">&larr; 主页</a></nav>
 <h1>Session 6</h1>
 <div class="row n1">
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">Click to copy</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">点击复制</span></figure>
 </div>
 <h1 id="b2-1">Last Days</h1>
 <p><span class="tc-red">Testing</span></p>
+<h2 id="b2-3">Testing</h2>
 <div class="row n3">
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp" alt=""><span class="tip">Click to copy</span></figure>
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">Click to copy</span></figure>
-<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="Click to copy image" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/ed/ed4711f799-1-50-en.webp" alt=""><span class="tip">Click to copy</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp" alt=""><span class="tip">点击复制</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp" alt=""><span class="tip">点击复制</span></figure>
+<figure class="item"><img data-k="img" tabindex="0" role="button" aria-label="点击复制图片" crossorigin="anonymous" src="https://hui937.github.io/ImageLibrary/images/ed/ed4711f799-1-50-en.webp" alt=""><span class="tip">点击复制</span></figure>
 </div>
 </main>
-<nav class="outline" aria-label="Outline"><strong>Outline</strong>
+<nav class="outline" aria-label="大纲"><strong>大纲</strong>
 <a class="l1" href="#b2-1">Last Days</a>
+<a class="l2" href="#b2-3">Testing</a>
 </nav>
 </div>
 <script>
-function act(b){var old=b.innerHTML,box=b.parentNode,tip=box.querySelector('.tip');function done(ok,msg){var m=msg||(ok?"Copied!":"Copy failed. Press and hold the image to copy instead.");if(tip){tip.textContent=m;box.classList.add('show');setTimeout(function(){box.classList.remove('show');tip.textContent="Click to copy"},ok&&!msg?500:2200)}else{b.setAttribute('data-m',m);if(ok&&!msg)b.innerHTML="<svg viewBox=\"0 0 24 24\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg>";setTimeout(function(){b.removeAttribute('data-m');b.innerHTML=old},ok&&!msg?900:2200)}}
-if(b.dataset.k==='img'){var i=b;var p=new Promise(function(res,rej){try{var k=document.createElement('canvas');k.width=i.naturalWidth;k.height=i.naturalHeight;k.getContext('2d').drawImage(i,0,0);k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')}catch(e){rej(e)}}).catch(function(){return fetch(i.currentSrc||i.src,{mode:'cors',cache:'reload'}).then(function(r){if(!r.ok)throw new Error('http '+r.status);return r.blob()}).then(function(bl){return createImageBitmap(bl)}).then(function(bm){var k=document.createElement('canvas');k.width=bm.width;k.height=bm.height;k.getContext('2d').drawImage(bm,0,0);return new Promise(function(res,rej){k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')})})});try{navigator.clipboard.write([new ClipboardItem({'image/png':p})]).then(function(){done(1)},function(err){try{console.warn('Image copy failed:',err)}catch(z){}navigator.clipboard.writeText(i.currentSrc||i.src).then(function(){done(1,"Image copy was blocked. Copied the image link instead.")},function(){done(0)})})}catch(e){done(0)}}
+function act(b){var old=b.innerHTML,box=b.parentNode,tip=box.querySelector('.tip');function done(ok,msg){var m=msg||(ok?"已复制！":"复制失败。请长按图片进行复制。");if(tip){tip.textContent=m;box.classList.add('show');setTimeout(function(){box.classList.remove('show');tip.textContent="点击复制"},ok&&!msg?500:2200)}else{b.setAttribute('data-m',m);if(ok&&!msg)b.innerHTML="<svg viewBox=\"0 0 24 24\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg>";setTimeout(function(){b.removeAttribute('data-m');b.innerHTML=old},ok&&!msg?900:2200)}}
+if(b.dataset.k==='img'){var i=b;var p=new Promise(function(res,rej){try{var k=document.createElement('canvas');k.width=i.naturalWidth;k.height=i.naturalHeight;k.getContext('2d').drawImage(i,0,0);k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')}catch(e){rej(e)}}).catch(function(){return fetch(i.currentSrc||i.src,{mode:'cors',cache:'reload'}).then(function(r){if(!r.ok)throw new Error('http '+r.status);return r.blob()}).then(function(bl){return createImageBitmap(bl)}).then(function(bm){var k=document.createElement('canvas');k.width=bm.width;k.height=bm.height;k.getContext('2d').drawImage(bm,0,0);return new Promise(function(res,rej){k.toBlob(function(x){x?res(x):rej(new Error('toBlob'))},'image/png')})})});try{navigator.clipboard.write([new ClipboardItem({'image/png':p})]).then(function(){done(1)},function(err){try{console.warn('Image copy failed:',err)}catch(z){}navigator.clipboard.writeText(i.currentSrc||i.src).then(function(){done(1,"图片复制被浏览器阻止，已改为复制图片链接。")},function(){done(0)})})}catch(e){done(0)}}
 else{var bx=b.parentNode.querySelector('.box'),t=bx.getAttribute('data-cp');if(t===null)t=bx.innerText;navigator.clipboard.writeText(t).then(function(){done(1)},function(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();var ok=0;try{ok=document.execCommand('copy')}catch(x){}a.remove();done(ok)})}}
 document.addEventListener('click',function(e){var b=e.target.closest('[data-k]');if(b)act(b)});
 function fitIm(){document.querySelectorAll('.imt').forEach(function(w){w.classList.remove('stack');var r=w.querySelector('.row');if(r&&r.getBoundingClientRect().width>w.clientWidth*.66)w.classList.add('stack')})}
 window.addEventListener('resize',fitIm);window.addEventListener('load',fitIm);document.querySelectorAll('.imt img').forEach(function(i){i.addEventListener('load',fitIm)});fitIm();
 document.addEventListener('keydown',function(e){var b=e.target;if((e.key==='Enter'||e.key===' ')&&b.dataset&&b.dataset.k==='img'){e.preventDefault();act(b)}});
 </script>
-<script type="application/json" id="site-data">{"title":"Session 6","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1200,"blocks":[{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp"]},{"type":"text","items":[{"k":"h","title":"Last Days","level":1},{"k":"t","text":"\u003cspan class=\"tc-red\">Testing\u003c/span>"}]},{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp","https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp","https://hui937.github.io/ImageLibrary/images/ed/ed4711f799-1-50-en.webp"]}]}</script>
+<script type="application/json" id="site-data">{"title":"Session 6","colors":["#fff3b0","#cdeccf","#cfe4ff","#ffd6d6","#e5d4ff","#ffe0b8"],"width":1200,"blocks":[{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp"],"id":"wcny219ysnq"},{"type":"text","items":[{"k":"h","title":"Last Days","level":1,"id":"tnkh84h8bwr"},{"k":"t","text":"\u003cspan class=\"tc-red\">Testing\u003c/span>","id":"v326ovpodfo"},{"k":"h","title":"Testing","level":2,"id":"o3gevzjrq2"}],"id":"mf9uk4e6ngk"},{"type":"image","images":["https://hui937.github.io/ImageLibrary/images/6d/6d9ac6006f-2-20-en.webp","https://hui937.github.io/ImageLibrary/images/3b/3b3c3f85f8-1-10-en.webp","https://hui937.github.io/ImageLibrary/images/ed/ed4711f799-1-50-en.webp"],"id":"pa7t2fwb0a"}]}</script>
 </body>
 </html>
